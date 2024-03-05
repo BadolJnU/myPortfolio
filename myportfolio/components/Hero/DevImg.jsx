@@ -3,7 +3,7 @@ import Image from "next/image"
 const DevImg = ({ containerStyles, imgSrc }) => {
   return (
     <div className={`${containerStyles}`}>
-      <Image src={imgSrc} fill priority alt="my profile pic"/>
+      <Image src={imgSrc} priority alt="my profile pic" fill/>
     </div>
   )
 }
