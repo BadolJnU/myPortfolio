@@ -1,4 +1,4 @@
-import Form from '@/components/Form/form'
+import Form from '@/components/Form/Form'
 import { MailIcon, HomeIcon, PhoneCall } from 'lucide-react'
 
 const Contact = () => {
