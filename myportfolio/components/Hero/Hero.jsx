@@ -30,15 +30,16 @@ const Hero = () => {
                         <Link href='/contact'>
                             <Button className="gap-x-2">Contact me <Send size={18}/></Button>
                         </Link>
-                        <Button variant='secondary' className="gap-x-2">Download Resume <Download size={18}/></Button>
+                        <a href='Resume.pdf' download="Md_Khirul_Islam_Resume.pdf">
+                            <Button variant='secondary' className="gap-x-2">Download Resume <Download size={18}/></Button>
+                        </a>
                     </div>
                     {/* socials */}
                     <Socials containerStyles='flex gap-x-6 mx-auto xl:mx-0' iconsStyles='text-foreground text-[22px] hover:text-primary transition-all'/>
                 </div>
                 {/* image */}
                 <div className="hidden xl:flex relative">
-                    <div className="bg-hero_shape_2_light dark:bg-hero_shape_2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2">
-                        <DevImg containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom" imgSrc='/hero/developer.png'/>
+                    <div className="bg-contact_illustration_light dark:bg-contact_illustration_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2">
                     </div>
                 </div>
             </div>
